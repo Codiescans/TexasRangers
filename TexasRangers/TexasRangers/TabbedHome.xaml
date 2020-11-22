@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TexasRangers.TabbedHome">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Menu">
+        <StackLayout>
+        <!-- Place new controls here -->
+        <Frame>
+            <Button x:Name="ContactButton" Text="Contact Page" Clicked="ContactButton_Clicked"></Button>
+        </Frame>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Contact">
+        <StackLayout>
+            <WebView Source="https://www.google.com/maps/place/Techtorium+NZIIT/@-36.8684638,174.7760257,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d4876cc2171dd:0xf7851a1a5cae3241!8m2!3d-36.8684638!4d174.7782144" VerticalOptions="FillAndExpand"></WebView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Reservation" />
+</TabbedPage>
