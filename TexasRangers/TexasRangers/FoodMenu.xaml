@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TexasRangers.FoodMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Label Text="SIZZLING STEAK
+                       $165
+                       Mushrooms,Olives,Celery, Choice of Potatoes and Coffe">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="PLANKED STEAK
+                       $165
+                       Mushrooms, Hot Peppers, Olives, Celery, Choice of Potatoes, Grilled Onions, Coffee">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="FILET MIGNON
+                       135
+                       Olives, Celery, Mushrooms, Choice of Potatoes, Grilled Onions, Coffee">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="BIG SMALL STEAK
+                       $95
+                       Tomato Juice, Salad, Choice of Potatoes, Grilled Onions, Coffee">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="LARGE LAMB CHOPS
+                       $70
+                       French Fried Potatoes, Cole Slaw, Bread, Butter and Coffee">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="HALF BARBECUED CHICKEN
+                       $65
+                       French Fried Potatoes, Cole Slaw, Bread, Butter and Coffee">
+                </Label>
+            </Frame>
+            <Frame>
+                <Label Text="BARBECUED RIBS
+                       $50 
+                       French Fried Potatoes, Cole Slaw, Bread, Bread, Butter and Coffee">
+                </Label>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

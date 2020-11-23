@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TexasRangers
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Contact : ContentPage
+    public partial class DrinkMenu : ContentPage
     {
-        public Contact()
+        public DrinkMenu()
         {
             InitializeComponent();
-        }
-
-        private async void BackButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PopAsync();
         }
     }
 }

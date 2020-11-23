@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TexasRangers.DrinkMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Label Text="BONDED WHISKEY"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Old Taylor    $40"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Old Overholt    $40"></Label>
+                
+            </Frame>
+            <Frame>
+                <Label Text="Old Grand Dad    $40"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Old Crow    $35"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Old Republic    $30"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="BOURBON WHISKEY"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Four Roses    $35"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Golden Wedding    $30"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Old Oscar Pepper    $30"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Bond and Lillard    $30"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Ten High    $25"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="BLENDED WHISKEY"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Canadian Club    $40"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Seagram's V.O.C.    $40"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Seagram's 7 Crown    $35"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Seagram's 5 Crown    $30"></Label>
+            </Frame>
+            <Frame>
+                <Label Text="Lord Calvert    $40"></Label>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

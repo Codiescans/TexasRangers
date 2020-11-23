@@ -17,9 +17,5 @@ namespace TexasRangers
         {
             InitializeComponent();
         }
-        private async void Contactpage_clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Contact());
-        }
     }
 }

@@ -8,9 +8,7 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Frame>
-            <Button x:Name="ContactButton" Text="Contact Page" Clicked="Contactpage_clicked"></Button>
-        </Frame>
+        
     </StackLayout>
 
 </ContentPage>
