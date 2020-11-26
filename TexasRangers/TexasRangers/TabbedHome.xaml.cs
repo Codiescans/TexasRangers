@@ -23,7 +23,8 @@ namespace TexasRangers
             var request = new RestRequest(Method.GET);
             var response = client.Execute<Chuckapi>(request);
             var Chucknorrisapi = response.Data;
-            Chuckjoke.BindingContext = Chucknorrisapi;
+            string Joke = Chucknorrisapi.Value;
+            Chuckjoke.Text = Joke;
            
         }
         private async void FoodMenu_Clicked(object sender, EventArgs e)

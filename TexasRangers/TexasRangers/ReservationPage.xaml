@@ -8,8 +8,13 @@
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Editor Placeholder="Name"
-                Text="{Binding Text}"
+                Text="{Binding Name}"
                 HeightRequest="100" />
+            <Editor Placeholder="Number Of People"
+                Text="{Binding R_Number}"
+                HeightRequest="100" />
+            <DatePicker Date="{Binding R_Date}"></DatePicker>
+            <TimePicker Time="{Binding R_Time}"></TimePicker>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />

@@ -10,7 +10,10 @@ namespace TexasRangers.Model
     {
         [PrimaryKey, AutoIncrement]
         public int Reservation_ID { get; set; }
-        public string Text { get; set; }
+        public string Name { get; set; }
+        public int R_Number { get; set; }
+        public DateTime R_Date { get; set; }
+        public DateTime R_Time { get; set; }
         public DateTime Date { get; set; }
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TexasRangers.Android", "TexasRangers\TexasRangers.Android\TexasRangers.Android.csproj", "{B5CA2A73-DDDE-448F-AD8A-6FA3C11B95D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TexasRangers", "TexasRangers\TexasRangers\TexasRangers.csproj", "{D6F11102-2DD9-4AC9-89F6-11640732189C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TexasRangers", "TexasRangers\TexasRangers\TexasRangers.csproj", "{D6F11102-2DD9-4AC9-89F6-11640732189C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

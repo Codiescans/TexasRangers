@@ -9,7 +9,10 @@
     <ContentPage Title="Home">
         <StackLayout>
             <Frame>
-                <Label x:Name="Chuckjoke" ></Label>
+                <Image Source="\Images\texas_rangers_logo.png"></Image>
+            </Frame>
+            <Frame>
+                <Label x:Name="Chuckjoke"></Label>
             </Frame>
             <Frame>
                 <Button x:Name="FoodMenu" Text="Food Menu" Clicked="FoodMenu_Clicked"></Button>
@@ -21,6 +24,7 @@
     </ContentPage>
     <ContentPage Title="Contact">
         <StackLayout>
+            <Image Source="\Images\Picture3.png"></Image>
             <Label Text="Phone Number:02163728"></Label>
             <Label Text="Address: 131 Queen Street, Auckland CBD, Auckland 1010"></Label>
             <Label Text="Email: Info@TexasRangers.co.nz"></Label>
@@ -32,15 +36,24 @@
             <ToolbarItem Text="+"
                      Clicked="OnNoteAddedClicked" />
         </ContentPage.ToolbarItems>
-        <ListView x:Name="listView"
-              Margin="20"
-              ItemSelected="OnListViewItemSelected">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell TextColor="Black" Text="{Binding Text}"
-                          Detail="{Binding Date}" />
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <ContentPage.Content>
+            <ListView  x:Name="listView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                        Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" />
+                                    <Label Text="{Binding R_Number}"/>
+                                    <Label Text="{Binding R_Date}"/>
+                                    <Label Text="{Binding R_Time}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ContentPage.Content>
     </ContentPage>
 </TabbedPage>
