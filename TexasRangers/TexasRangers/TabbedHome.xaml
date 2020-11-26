@@ -8,6 +8,7 @@
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Home">
         <StackLayout>
+            <Button x:Name="btnCrash" Text="Crash Me" Clicked="btnCrash_Clicked" />
             <Frame>
                 <Image Source="\Images\texas_rangers_logo.png"></Image>
             </Frame>
@@ -24,7 +25,7 @@
     </ContentPage>
     <ContentPage Title="Contact">
         <StackLayout>
-            <Image Source="\Images\Picture3.png"></Image>
+            <Image Source="C:\Users\dylan\OneDrive\Documents\Classwork\TexasRangers\Picture3.jpg"></Image>
             <Label Text="Phone Number:02163728"></Label>
             <Label Text="Address: 131 Queen Street, Auckland CBD, Auckland 1010"></Label>
             <Label Text="Email: Info@TexasRangers.co.nz"></Label>

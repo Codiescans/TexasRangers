@@ -61,5 +61,10 @@ namespace TexasRangers
                 });
             }
         }
+
+        private void btnCrash_Clicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
